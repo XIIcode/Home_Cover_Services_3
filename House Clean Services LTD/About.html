@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--boxicon link to acess its icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body class="contact">
+    <header class="header">
+        <ul>
+            <li><i class='bx bx-phone-call'></i>:    +254758585446 </li>
+            <li><strong>Address : </strong>11 mfangano st Nairobi Kenya</li>
+        </ul>
+    </header>
+    <nav class="navBar">
+        <!--will display vertically on the right side-->
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><img src="Images\x-regular-24.png" height="30" width="30"></a></li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="Services.html">Services</a></li>
+             <!--<li><a href="#">Gallery</a></li>-->
+             <li><a href="About.html" class="activeLink">About</a></li>
+             <li><a href="Contact.html">Contact Us</a></li>
+         </ul>
+        <!--Will be displayed horizontally-->
+        <ul>
+           <li><img src="Images\logo clean.png" height="70px" width="150px"></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="Services.html">Services</a></li>
+            <!--<li><a href="#">Gallery</a></li>-->
+            <li class="hideOnMobile"><a href="About.html" class="activeLink">About</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact Us</a></li>
+            <li onclick="showSidebar()"><a href="#"><img src="Images\menu-regular-24.png" height="27" width="27"></a></li>
+        </ul>
+    </nav>
+    <section id="aboutBgSection" class="background-section">
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about-details">
+        <div class="about-content">
+            <h2>About House Clean Services LTD</h2>
+            <p>At House Clean Services LTD, we're dedicated to providing top-quality cleaning services in Nairobi, Kenya. 
+               Our mission is to ensure customer satisfaction through reliable and professional cleaning solutions.
+               With a vision to become the region's preferred cleaning service, we prioritize excellence and customer-centricity.
+            </p>
+        </div>
+        <div class="about-image-section">
+            <img src="Images\smilling cleaning man.jpg">
+        </div>
+    </section>
+
+    <section class="more-about-content">
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>Our mission is to deliver the highest quality cleaning services tailored to meet the unique needs 
+                of each of our clients. We strive for excellence in every aspect of our work, from the products 
+                we use to the customer service we provide.
+            </p>
+        </div>
+        <div class="team">
+            <h2>Our Team</h2>
+            <p>
+                Our team consists of highly trained and experienced professionals who are passionate about delivering
+                 exceptional results. We are committed to exceeding our clients' expectations and take pride in our attention 
+                 to detail and thorough cleaning techniques.
+            </p>
+        </div>
+        <div class="services">
+            <h2>Our Services</h2>
+            <p>
+                At House Clean Services LTD, we offer a wide range of cleaning services, including residential cleaning,
+                commercial cleaning, deep cleaning, move-in/move-out cleaning, and more. Whether you need a one-time cleaning
+                 service or regular maintenance, we have the expertise to handle it all.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top-bar">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p> <strong>Phone:</strong>  +254 758 585 446</p>
+                <p> <strong>Address:</strong> 11 mfangano st Nairobi Kenya</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="quick-link-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="footer-bottom-bar">
+           <p>&copy;  2024 House clean services LTD. All Rights Reserved</p>
+        </div>
+        </footer>
+ <script src="script.js"></script>   
+</body>
+</html>

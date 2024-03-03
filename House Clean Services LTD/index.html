@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House clean services LTD</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--boxicon link to acess its icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <li><i class='bx bx-phone-call'></i>:    +254758585446 </li>
+            <li><strong>Address : </strong>11 mfangano st Nairobi Kenya</li>
+        </ul>
+    </header>
+    <nav class="navBar">
+        <!--will display vertically on the right side-->
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><img src="Images\x-regular-24.png" height="30" width="30"></a></li>
+             <li><a href="index.html" class="activeLink">Home</a></li>
+             <li><a href="Services.html">Services</a></li>
+             <!--<li><a href="#">Gallery</a></li>-->
+             <li><a href="About.html">About</a></li>
+             <li><a href="Contact.html">Contact Us</a></li>
+         </ul>
+        <!--Will be displayed horizontally-->
+        <ul>
+           <li><img src="Images\logo clean.png" height="70px" width="150px"></li>
+            <li class="hideOnMobile"><a href="index.html" class="activeLink">Home</a></li>
+            <li class="hideOnMobile"><a href="Services.html">Services</a></li>
+            <!--<li><a href="#">Gallery</a></li>-->
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact Us</a></li>
+            <li onclick="showSidebar()"><a href="#"><img src="Images\menu-regular-24.png" height="27" width="27"></a></li>
+        </ul>
+    </nav>
+
+    <div class="homebg">
+        <button class="bottom-button">REQUEST A QUOTE </button>
+    </div>
+       
+        <section class="about-details">
+            <div class="about-content">
+                <h2>Cleaning Services in Nairobi Kenya</h2>
+                <p><strong>House Clean Services LTD</strong>stands as a leading provider of both commercial and residential cleaning solutions, serving the bustling city of Nairobi, Kenya.
+                </p>
+                <br>
+                <p>Our services include home cover services, sofaset cleaning services, carpet cleaning services, fumigation and pest control services, mattress cleaning, upholstery services, laundry services, window cleaning, general house cleaning, pillow cleaning, car interior detailing, washroom cleaning, after party clean-up, swimming pool cleaning, post-construction cleaning, wooden floor sanding and polishing, floor tiles scrubbing, mazeras scrubbing, terrazzo and pavers scrubbing, roof cleaning,  Cabro Scrubbing Service, office cleaning services, sanitization and disinfection, commercial cleaning. </p>
+            </div>
+            <div class="about-image-section">
+                <img src="Images/team.jpg">
+            </div>
+        </section>
+
+        <section class="our-work">
+            <h1>Our Work</h1>
+        <div class="work-box">
+            <div class="box">
+                <div class="services-image-section">
+                    <img src="Images/sofa our work.jpeg">
+                </div>
+                <h4>Sofa Set Cleaning Services</h4>
+                <P> Revitalize your living space with our professional sofa set cleaning services, removing stains and odors for a fresh look and feel.</P>
+            </div>
+
+            <div class="box">
+                <div class="services-image-section">
+                    <img src="Images/carpet our work.jpeg">
+                </div>
+               <h4>Carpet Cleaning Services</h4>
+                <P>Restore the beauty of your carpets with our specialized cleaning techniques, eliminating dirt, allergens, and bacteria.</P>
+            </div>
+
+             <div class="box">
+                <div class="services-image-section">
+                    <img src="Images/matres our work.jpeg">
+                </div>
+                 <h4>Mattress Cleaning</h4>
+                <P>Ensure a clean and hygienic sleeping environment with our mattress cleaning services, removing dust mites and allergens.</P>
+             </div>
+
+             <div class="box">
+                <div class="services-image-section">
+                    <img src="Images/interior our work.jpeg">
+                </div>
+                <h4>Car Interior Detailing</h4>
+                <P>Restore the interior of your car to its original glory with our detailed cleaning and conditioning services, leaving it immaculate.</P>
+             </div>
+        </div>
+        </section>
+
+        <section class="contact-wrapper">
+            <div class="contact-details">
+                <h3>Contact details</h3>
+                <p><i class='bx bxs-phone-call'></i>+254 758 585 446 </p>
+                <p><i class='bx bxs-map'></i>11 mfangano st Nairobi Kenya</p>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Us Today</h3>
+                <form>
+       
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="tel">Phone Number</label>
+                            <input type="tel" id="tel" name="tel" required>
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="services">Choose a Service</label>
+                            <input type="text" id="services" name="services" required>
+                    </div>
+    
+                        <button type="submit"  class="submit-btn">Send message</button>     
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-top-bar">
+                <div class="footer-content">
+                    <h3>Contact Us</h3>
+                    <p> <strong>Phone:</strong>  +254 758 585 446</p>
+                    <p> <strong>Address:</strong> 11 mfangano st Nairobi Kenya</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Links</h3>
+                    <ul class="quick-link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="footer-bottom-bar">
+               <p>&copy;  2024 Home cover services LTD. All Rights Reserved</p>
+            </div>
+            </footer>
+    
+    <script src="script.js"> </script>
+</body>
+</html>
